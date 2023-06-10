@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  color: rgb(197, 236, 92);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: italic;
+  text-shadow: 2px 2px 20px rgb(8, 139, 39);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgb(18, 16, 16);
+}
+
+.box {
+  height: 250px;
+  width: 250px;
+  border: 1px solid white;
+  margin: 10px;
+  border-radius: 6px;
+  box-shadow: 10px 10px 50px white;
+  transition: background-color 2s;
+}
+.box:nth-child(6n):hover {
+  background-color: greenyellow;
+  transition-duration: 0s;
+}
+
+.box:nth-child(6n + 1):hover {
+  background-color: rgb(69, 15, 130);
+  transition-duration: 0s;
+}
+.box:nth-child(6n + 2):hover {
+  background-color: rgb(211, 163, 19);
+  transition-duration: 0s;
+}
+.box:nth-child(6n + 3):hover {
+  background-color: rgb(130, 15, 69);
+  transition-duration: 0s;
+}
+.box:nth-child(6n + 4):hover {
+  background-color: rgb(40, 137, 169);
+  transition-duration: 0s;
+}
+.box:nth-child(6n + 5):hover {
+  background-color: rgb(189, 174, 41);
+  transition-duration: 0s;
+}
+.box:nth-child(6n + 6):hover {
+  background-color: greenyellow;
+  transition-duration: 0s;
+}
+
+.box:nth-child(6n + 7):hover {
+  background-color: rgb(69, 15, 130);
+  transition-duration: 0s;
+}
+.box:nth-child(6n + 8):hover {
+  background-color: rgb(211, 163, 19);
+  transition-duration: 0s;
+}
+.box:nth-child(6n + 9):hover {
+  background-color: rgb(130, 15, 69);
+  transition-duration: 0s;
+}
+.box:nth-child(6n + 10):hover {
+  background-color: rgb(40, 137, 169);
+  transition-duration: 0s;
+}
+.box:nth-child(6n + 11):hover {
+  background-color: rgb(189, 174, 41);
+  transition-duration: 0s;
+}
+.box:nth-child(6n + 11):hover {
+  background-color: rgb(189, 174, 41);
+  transition-duration: 0s;
+}
